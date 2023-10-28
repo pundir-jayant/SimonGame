@@ -14,6 +14,7 @@ body {
   display: block;
   width: 50%;
   margin: auto;
+  margin-top: 30px;
 
 }
 
@@ -50,4 +51,26 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+.sus {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
 }
