@@ -11,6 +11,7 @@ $(document).keypress(function () {
     $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
+    $(".sus").hide();
   }
 });
 
